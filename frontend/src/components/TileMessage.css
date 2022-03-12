@@ -1,0 +1,11 @@
+/* center out letter tile tile box shadow */
+.tile-message {
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+.tile-word {
+    display: inline-block;
+    margin: 0 6px;
+    white-space: nowrap;
+}

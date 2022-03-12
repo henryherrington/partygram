@@ -1,0 +1,56 @@
+.letter-tile, .empty-letter-tile {
+    display: inline-block;
+
+    border-radius: 2px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.letter-tile {
+    background-color: white;
+    box-shadow: 2px 2px 0 2px rgb(191, 191, 191);
+}
+
+.empty-letter-tile {
+    background-color: rgba(0, 0, 0, 0.386);
+    box-shadow: 2px 2px 0 2px rgba(0, 0, 0, 0.386);
+}
+
+.letter-container {
+    display: inline-block;
+}
+
+.spacer {
+    width: 15px;
+}
+
+.spacing-small {
+    margin: 2px;
+}
+
+.spacing-large {
+    margin: 2px 4px;
+}
+
+.size-medium {
+    padding: 0 8px;
+    font-size: 30px;
+}
+
+.size-small {
+    padding: 0 6px;
+    font-size: 20px;
+}
+
+.size-extra-small {
+    padding: 0 3px;
+    font-size: 11px;
+}
+
+.hidden {
+    box-shadow: 1px 1px 0 1px rgb(191, 191, 191);
+}
+
+.gone {
+    width: 42px;
+}
